@@ -43,4 +43,4 @@ Write the code to change the color of our square to a random color every time it
 
 ### Bonus Feature
 * Create a button "Generate Opponent". As a user, I can click on this button in order to spawn a white "opponent" square somewhere randomly inside the black box. If I move my square and it collides with this opponent square, then the opponent will be removed. 
-* You can decide if multiple opponent square are allowd at the same time, or if only one opponent can exist at once!
+* You can decide if multiple opponent square are allowed at the same time, or if only one opponent can exist at once!
