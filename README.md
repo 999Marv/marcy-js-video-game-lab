@@ -35,7 +35,7 @@ Your logic should be as followed:
 
 ### Check for a Collision!
 
-There are certains bounds *for each arrow key press* where the square should not be able to move in that direction anymore. For example, if `square.style.left` is `"0px"`, then it should not be able to move anymore in the left direction. If `square.style.top` is `0px`, then it can't move up anymore. You will have to do some math to figure out what the other two bounds. The total dimensions of the black box are `350px` by `350px`. The dimensions of our square is `50px` by `50px`. 
+There are certains bounds *for each arrow key press* where the square should not be able to move in that direction anymore. For example, if `square.style.left` is `"0px"`, then it should not be able to move anymore in the left direction. If `square.style.top` is `0px`, then it can't move up anymore. You will have to do some math to figure out the other two bounds. The total dimensions of the black box are `350px` by `350px`. The dimensions of our square is `50px` by `50px`. 
 
 ### Change the Color of our Square
 
