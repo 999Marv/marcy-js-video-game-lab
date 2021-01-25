@@ -23,7 +23,7 @@ There a bit of started code in `index.js`. Examine it, and predict what the exis
 
 ### Next, Move the Square
 
-For this lab, we will change the location of the square using `square.style.left` and `square.style.top`. You can read about [`left`](https://developer.mozilla.org/en-US/docs/Web/CSS/left) and [`top`](https://developer.mozilla.org/en-US/docs/Web/CSS/top) on MDN. **Do not use** `square.style.right` or `square.style.bottom` as these properties are not automatically calculated based off `.left` nor `.top`. 
+For this lab, we will change the location of the square using `square.style.left` and `square.style.top`. You can read about [`left`](https://developer.mozilla.org/en-US/docs/Web/CSS/left) and [`top`](https://developer.mozilla.org/en-US/docs/Web/CSS/top) on MDN. **Do not use** `square.style.right` or `square.style.bottom` as these properties are not automatically calculated based off `left` or `top`. 
 
 Your logic should be as followed:
 * If `ArrowLeft` was pressed, `square.style.left` should decrease by 10px. For example, if `square.style.left` was `'100px'`, it should change to `'90px'`.
