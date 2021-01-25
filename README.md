@@ -19,7 +19,7 @@ For this lab, you'll be recreating [this webpage](https://thuyanduong.github.io/
 
 ### First, Detect When an Arrow Key is Pressed
 
-There a bit of started code in `index.js`. Examine it, and predict what the existing code does. Open `index.html` in the browser and inspect the the console. Now, start typing on your keyboard. What do you notice? `e.key` is a string which represents the key that was pressed. You will need to write some conditional logic to see if the pressed key was `ArrowLeft`, `ArrowRight`, `ArrowUp`, or `ArrowDown`. 
+There's a bit of starter code in `index.js`. Examine it, and predict what the existing code does. Open `index.html` in the browser and inspect the the console. Now, start typing on your keyboard. What do you notice? `e.key` is a string which represents the key that was pressed. You will need to write some conditional logic to see if the pressed key was `ArrowLeft`, `ArrowRight`, `ArrowUp`, or `ArrowDown`. 
 
 ### Next, Move the Square
 
@@ -32,6 +32,14 @@ Your logic should be as followed:
 * If `ArrowDown` was pressed, `square.style.top` should increase by 10px. For example, if `square.style.top` was `'200px'`, it should change to `'210px'`.
 
 **Note:** Setting `square.style.left` to a value of `100` will not work! You must set it equal to a string value of `'100px'`. 
+
+### Check for a Collision!
+
+There are certains bounds *for each arrow key press* where the square should not be able to move in that direction anymore. For example, if `square.style.left` is `"0px"`, then it should not be able to move anymore in the left direction. If `square.style.top` is `0px`, then it can't move up anymore. You will have to do some math to figure out what the other two bounds. The total dimensions of the black box are `350px` by `350px`. The dimensions of our square is `50px` by `50px`. 
+
+### Change the Color of our Square
+
+Write the code to change the color of our square to a random color every time it is clicked on. You will need to update `square.style.backgroundColor`.
 
 #### Bonus:
 * Create a button "Generate Opponent". As a user, I can click on this button in order to spawn a white "opponent" square somewhere randomly inside the black box. If I move my square and it collides with this opponent square, then the opponent will be removed. 
