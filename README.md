@@ -39,7 +39,7 @@ There are certains bounds *for each arrow key press* where the square should not
 
 ### Change the Color of our Square
 
-Write the code to change the color of our square to a random color every time it is clicked on. You will need to update `square.style.backgroundColor`. Once you complete this step and all previous ones, you are finished with this lab!
+Write the code to change the color of our square to a random color every time it is clicked on. You will need to update `square.style.backgroundColor`. 
 
 ### Bonus Feature
 * Create a button "Generate Opponent". As a user, I can click on this button in order to spawn a white "opponent" square somewhere randomly inside the black box. If I move my square and it collides with this opponent square, then the opponent will be removed. 
