@@ -7,6 +7,7 @@ For this lab, you'll be recreating [this webpage](https://thuyanduong.github.io/
 ## Required User Stories
 1. As a user, I can move my square left, right, up, and down using the arrow keys on the keyboard. The square can never move outside the black box. When it collides with one of the four walls, it cannot continue to move in that direction.
 2. As a user, I can click on my square and it will change it to a random color. 
+2. As a user, I can create white square opponents that will dissapear when my square collides with it
 
 ## Directions 
 
@@ -35,12 +36,12 @@ Your logic should be as followed:
 
 ### Check for a Collision!
 
-There are certains bounds *for each arrow key press* where the square should not be able to move in that direction anymore. For example, if `square.style.left` is `"0px"`, then it should not be able to move anymore in the left direction. If `square.style.top` is `0px`, then it can't move up anymore. You will have to do some math to figure out the other two bounds. The total dimensions of the black box are `350px` by `350px`. The dimensions of our square is `50px` by `50px`. 
+There are certains bounds *for each arrow key press* where the square should not be able to move in that direction anymore. For example, if `square.style.left` is `"0px"`, then it should not be able to move anymore in the left direction. The total dimensions of the black box are `350px` by `350px`. The dimensions of our square is `50px` by `50px`. 
 
 ### Change the Color of our Square
 
 Write the code to change the color of our square to a random color every time it is clicked on. You will need to update `square.style.backgroundColor`. 
 
-### Bonus Feature
-* Create a button "Generate Opponent". As a user, I can click on this button in order to spawn a white "opponent" square somewhere randomly inside the black box. If I move my square and it collides with this opponent square, then the opponent will be removed. 
-* You can decide if multiple opponent squares are allowed at the same time, or if only one opponent can exist at once!
+### Generate Opponent
+
+Create a button "Generate Opponent". As a user, I can click on this button in order to spawn a white "opponent" square somewhere randomly inside the black box. If I move my square and it collides with this opponent square, then the opponent will be removed. You can decide if multiple opponent squares are allowed at the same time, or if only one opponent can exist at once!
